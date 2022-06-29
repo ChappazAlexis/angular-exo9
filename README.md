@@ -1,27 +1,16 @@
-# Exo9
+# EXERCICE 9 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+L’application consiste à créer une application affichant une grille de cartes de voitures de locations. Chaque voiture possède une image, un nom de marque, un nom de modèle et un état (louée/pas louée). Vous ferez un composant "card" pour chaque voiture.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Il sera, en plus :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- possible de basculer toutes les voitures en louées ou non louées grâce à un bouton.
 
-## Build
+- possible de basculer une seule voiture, indépendamment des autres, en louée ou non louée grâce à un bouton.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Vous découperez l’application en autant de composants et services qui vous sembleront nécessaire.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
