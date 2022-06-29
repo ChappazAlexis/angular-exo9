@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" [src]="imgPath" alt="card img">
+        <div class="card-body">
+          <h5 class="card-title">{{ brandName }} - {{ modelName }}</h5>
+          <p class="card-text">Etat : {{status}}</p>
+          <button class="btn btn-primary" (click)="onClickChangeCarStatus()">CHANGER L'ETAT</button>
+      </div>
+  </div>
